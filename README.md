@@ -5,28 +5,28 @@ This project provides a structure for constructing and evaluating logical senten
 
 ### **Classes**
 
-**Sentence:** The abstract base class for all logical sentences, including methods for evaluation, formula representation, and symbol extraction.
+**1.Sentence:** The abstract base class for all logical sentences, including methods for evaluation, formula representation, and symbol extraction.
 
-**Symbol:** Represents individual symbols (variables) in logical sentences.
+**2.Symbol:** Represents individual symbols (variables) in logical sentences.
 
-**Not:** Represents logical negation (¬).
+**3.Not:** Represents logical negation (¬).
 
-**And:** Represents logical conjunction (∧) to combine multiple conditions.
+**4.And:** Represents logical conjunction (∧) to combine multiple conditions.
 
-**Or:** Represents logical disjunction (∨) to capture alternatives.
+**5.Or:** Represents logical disjunction (∨) to capture alternatives.
 
-**Implication:** Models logical implication (=>), e.g., "if A then B."
+**6.Implication:** Models logical implication (=>), e.g., "if A then B."
 
-**Biconditional:** Represents logical biconditional (<=>), e.g., "A if and only if B."
+**7.Biconditional:** Represents logical biconditional (<=>), e.g., "A if and only if B."
 
 
 ### **Methods**
 
-**evaluate(model):** Evaluates whether the sentence is true or false within a given model (a dictionary of symbol truth values).
+**1.evaluate(model):** Evaluates whether the sentence is true or false within a given model (a dictionary of symbol truth values).
 
-**formula():** Generates a readable formula of the logical sentence.
+**2.formula():** Generates a readable formula of the logical sentence.
 
-**symbols():** Returns all symbols involved in the logical sentence.
+**3.symbols():** Returns all symbols involved in the logical sentence.
 
-**model_check(knowledge, query):** Determines if a knowledge base logically entails a query by checking all possible truth assignments for the symbols.
+**4.model_check(knowledge, query):** Determines if a knowledge base logically entails a query by checking all possible truth assignments for the symbols.
 

@@ -3,7 +3,7 @@ This project provides a structure for constructing and evaluating logical senten
 
 ## **Key Components:**
 
-###**Classes**
+##**Classes**
 
 **Sentence:** The abstract base class for all logical sentences, including methods for evaluation, formula representation, and symbol extraction.
 

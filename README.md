@@ -20,7 +20,7 @@ This project provides a structure for constructing and evaluating logical senten
 **Biconditional:** Represents logical biconditional (<=>), e.g., "A if and only if B."
 
 
-**Methods**
+### **Methods**
 
 **evaluate(model):** Evaluates whether the sentence is true or false within a given model (a dictionary of symbol truth values).
 

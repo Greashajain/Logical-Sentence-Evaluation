@@ -30,3 +30,14 @@ This project provides a structure for constructing and evaluating logical senten
 
 **4.model_check(knowledge, query):** Determines if a knowledge base logically entails a query by checking all possible truth assignments for the symbols.
 
+### **Model Checking:**
+
+The model_check function verifies if a knowledge base implies a query by evaluating every possible truth assignment. This can be useful for scenarios in propositional logic, automated reasoning, and AI applications.
+
+### **Installation**
+
+Clone the repository and ensure Python 3.x is installed. No additional packages are required.
+
+### **Usage**
+
+Define a logical sentence and model, and use evaluate to check the sentence’s truth value based on the model. See examples in the code comments.
